@@ -19,7 +19,7 @@ public class ExternalUrls {
 
     @JsonProperty("spotify")
     public String getSpotify() {
-        return spotify;
+        return spotify; 
     }
 
     @JsonProperty("spotify")
