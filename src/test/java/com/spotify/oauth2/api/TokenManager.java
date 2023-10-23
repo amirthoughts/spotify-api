@@ -25,7 +25,7 @@ public class TokenManager {
                 expiry_time = Instant.now().plusSeconds(expiryDurationInSeconds - 300);
             } else {
                 System.out.println("Token is good to use");
-            } 
+            }
 
         } catch (Exception e) {
             e.printStackTrace();
